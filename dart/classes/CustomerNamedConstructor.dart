@@ -8,11 +8,7 @@ class Customer {
   
   int? age;
 
-  Customer({int? id, String? name, int? age}) {
-    this.id = id;
-    this.name = name;
-    this.age = age;
-  }
+  Customer({this.id, this.name, this.age});
 
   String info() {
     return 'ID: $id | Name: $name | Age: $age';
