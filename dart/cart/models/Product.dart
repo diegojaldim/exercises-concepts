@@ -1,9 +1,9 @@
 class Product {
 
-  String? name;
+  String name;
 
-  double? price;
+  double price;
 
-  Product({this.name, this.price});
+  Product({required this.name, this.price = 0});
 
 }

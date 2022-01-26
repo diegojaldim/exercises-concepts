@@ -1,5 +1,4 @@
-import '../classes/Customer.dart';
-import './models/Cart.dart';
+import 'models/Cart.dart';
 import 'models/Client.dart';
 import 'models/Item.dart';
 import 'models/Product.dart';
@@ -29,5 +28,7 @@ void main(List<String> args) {
       )
     ]
   );
+
+  print(cart.totalValue);
 
 }
